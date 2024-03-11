@@ -1,6 +1,7 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
 import Scroller from "@/components/Scroller";
+import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
     return (
@@ -10,6 +11,7 @@ export default function Home() {
             <HeroSection />
             <FeaturedCourses />
             <Scroller/>
+            <Testimonials/>
         </main>
     );
 }
