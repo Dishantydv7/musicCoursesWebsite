@@ -2,6 +2,7 @@ import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
 import Scroller from "@/components/Scroller";
 import Testimonials from "@/components/Testimonials";
+import UpcomingWebinars from "@/components/UpcomingWebinars";
 
 export default function Home() {
     return (
@@ -12,6 +13,7 @@ export default function Home() {
             <FeaturedCourses />
             <Scroller/>
             <Testimonials/>
+            <UpcomingWebinars />
         </main>
     );
 }
