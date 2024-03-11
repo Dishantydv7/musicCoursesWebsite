@@ -1,4 +1,5 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import Instructors from "@/components/Instructors";
 import Scroller from "@/components/Scroller";
@@ -18,6 +19,7 @@ export default function Home() {
             <UpcomingWebinars />
             <Instructors />
             {/* <Wave/> */}
+            <Footer/>
         </main>
     );
 }
