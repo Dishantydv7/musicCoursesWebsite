@@ -51,7 +51,7 @@ function Footer() {
                 </div>
                 <div>
                     <h2 className="text-white text-lg font-semibold mb-4">Follow Us</h2>
-                    <div className="flex space-x-4">
+                    <div className="flex flex-col space-x-4">
                         <a
                             href="#"
                             className="hover:text-white transition-colors duration-300"
